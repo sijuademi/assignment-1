@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<p><img src="./cropped-AltSchool-Logo-1.png" alt="" /></p>
+			<h3>Application Form</h3>
+			<p>Fill in your details</p>
+		</header>
+		<form action="GET">
+			<p>
+				<label for="FirstName">First Name</label> <br />
+				<input
+					type="text"
+					name="FirstName"
+					id="FirstName"
+					required
+					placeholder="Enter first name"
+				/>
+			</p>
+			<p>
+				<label for="LastName">Last Name</label> <br />
+				<input
+					type="text"
+					name="LastName"
+					id="LastName"
+					required
+					placeholder="Enter last name"
+				/>
+			</p>
+			<p>
+				<label for="Gender">Gender</label> <br />
+
+				<select name="Gender" id="Gender" required>
+					<option value="">Select Gender</option>
+					<option value="male">male</option>
+					<option value="female">female</option>
+				</select>
+			</p>
+			<p>
+				<label for="DOB">Date Of Birth</label> <br />
+				<input type="date" name="DOB" id="DOB" required />
+			</p>
+			<p>
+				<label for="email">Email Address</label> <br />
+				<input
+					type="text"
+					name="email"
+					id="email"
+					required
+					placeholder="Enter email address"
+				/>
+			</p>
+			<p>
+				<label for="education">Education Level</label> <br />
+
+				<select name="education" id="education" required>
+					<option value="bsc">Bsc</option>
+					<option value="msc">Msc</option>
+					<option value="diploma">Diploma</option>
+					<option value="phd">Doctorate (PhD)</option>
+					<option value="high school">High School/ Secondary School</option>
+					<option value="whatsapp">Under Graduate</option>
+					<option value="Junior school">Junior / Middle School</option>
+					<option value="postgrad">Post Graduate</option>
+				</select>
+			</p>
+			<p>
+				<label for="State/City of Residence"> </label> <br />
+				<input
+					type="text"
+					name="residence"
+					id="residence"
+					required
+					placeholder="Enter your state of residence"
+				/>
+			</p>
+			<p>
+				<label for="employement">Employement Status</label> <br />
+
+				<select name="employement" id="employement" required>
+					<option value="">Select employement status</option>
+					<option value="employed">employed</option>
+					<option value="unemployed">unemployed</option>
+					<option value="self-employed">self-employed</option>
+				</select>
+			</p>
+			<p>
+				<label for="number">Phone Number</label> <br />
+				<input
+					type="text"
+					name="number"
+					id="number"
+					required
+					placeholder="08154387000"
+				/>
+			</p>
+			<p>
+				<label for="school">Choose School</label> <br />
+				<select name="school" id="school">
+					<!-- <input type="search" name="school" id="school" /> -->
+					<option value="">Select school</option>
+					<option value="economy">School of Creative Economy</option>
+					<option value="">School of Business</option>
+				</select>
+			</p>
+			<p>
+				<label for="course">Choose Course of Study</label> <br />
+				<select name="course" id="course">
+					<option value="">Select course</option>
+				</select>
+			</p>
+			<p>
+				<label for="medium">How did you hear about us?</label> <br />
+
+				<select name="medium" id="medium" required>
+					<option value="0">Select channel</option>
+					<option value="Twitter">Twitter</option>
+					<option value="Facebook">Facebook</option>
+					<option value="Linkedin">Linkedin</option>
+					<option value="Youtube">Youtube</option>
+					<option value="Friend">Friend</option>
+					<option value="whatsapp">Whatsapp</option>
+					<option value="Instagram">Instagram</option>
+					<option value="bill board">Bill Board</option>
+				</select>
+			</p>
+			<p>
+				<label for="scholarship">Scholarship/Discount Code (optional)</label
+				><br />
+				<input
+					type="text"
+					name="scholarship"
+					id="scholarship"
+					required
+					placeholder="Scholarship or student ID or disciunt codes"
+				/>
+			</p>
+			<div>
+				<p>
+					By clicking continue, I agree to <a href="#">Terms of Use</a> and
+					acknowledge that I have read the <a href="#">Privacy Policy.</a>
+				</p>
+				<button type="submit">Proceed</button>
+			</div>
+		</form>
+		<p>Already have an account? <a href="#">Sign In</a></p>
+	</body>
+</html>
